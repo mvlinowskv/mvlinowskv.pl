@@ -1,0 +1,11 @@
+@media (min-width: 991.98px) {
+    .backgColor:before {
+        background: #ff7dd161;
+        width: calc(9rem + 8vw);
+        height: calc(10rem + 10vw);
+    }
+
+    .font-small {
+        font-size: calc(.4rem + .5vw);
+    }
+}

@@ -1,0 +1,59 @@
+.menu-item {
+  margin-right: 0.5rem;
+  font-weight: normal;
+  a {
+    color: #000;
+  }
+}
+
+
+.nav-link:before {
+  content: "";
+  background: #ff7dd12c;
+  width: 34px;
+  position: absolute;
+  height: 25px;
+  z-index: -1;
+  border-radius: 0rem 1rem 1rem 0;
+
+}
+
+.nav-link:hover .nav-link:before {
+  background: #aa1d93
+  
+}
+
+
+
+@media (max-width:991.98px) {
+  #navbarResponsive {
+      background: #fff;
+      z-index: 10;
+      left: -100vw;
+      transition: 1s ease-out;
+      height: 100vh;
+      position: fixed;
+      top: 0;
+      width: 70vw;
+  }
+
+  .open {
+    left: 0!important;
+    visibility: visible;
+  }
+  
+
+  .container-menu {
+      background: rgba(255, 255, 255, 0.5);
+      z-index: 5;
+      transition: 0.2s ease-out;
+      left: 69vw;
+      top: 0;
+      z-index: -1;
+      position: absolute;
+  }
+
+  .nav {
+    display: block;
+  }
+}

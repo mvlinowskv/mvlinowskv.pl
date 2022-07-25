@@ -1,0 +1,25 @@
+.radius-img {
+    border-radius: $radiusImg;
+}
+
+.backgColor:before {
+    background: #ff7dd161;
+    // width: calc(9rem + 8vw);
+    // height: calc(10rem + 10vw);
+    width: calc(5rem + 8vw);
+    height: calc(6rem + 5vw);
+    position: absolute;
+    /* top: 0; */
+    content: "";
+    z-index: -1;
+}
+
+.backgColorLeft:before {
+    left: 0;
+    border-radius: 1rem 30rem 30rem 1rem;
+}
+
+.backgColorRight:before {
+    right: 0;
+    border-radius: 30rem 1rem 1rem 30rem;
+}

@@ -1,0 +1,32 @@
+* {
+  font-family: 'Poppins', sans-serif;
+}
+
+html {
+  margin-top: 0!important;
+}
+
+.bg-main-color {
+  background: #ffdef547;
+}
+
+.index-2 {
+  z-index: 2;
+}
+
+.card {
+  border: 0;
+  box-shadow: rgba(190, 190, 190, 0.2) 0px 3px 8px,
+              rgba(190, 190, 190, 0.2) 0px 3px 8px,
+              rgba(190, 190, 190, 0.1) 0px 3px 8px,
+              rgba(190, 190, 190, 0.1) 0px 3px 8px;
+  
+}
+
+.w-mac-img {
+  width: calc(10rem + 53vw);
+}
+
+.bg-gradient-grey {
+  background: linear-gradient(to bottom, #efefef, #f4f4f4);
+}
